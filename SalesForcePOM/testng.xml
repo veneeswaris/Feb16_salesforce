@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+      <parameter name="browser" value="chrome"> </parameter>
+      <classes>
+         <class name="com.SalesForce.Tests.SDFCLoginTest"> </class>
+          <class name="com.SalesForce.Tests.UserMenuDropDownTest"> </class>
+           <class name="com.SalesForce.Tests.CreateAccountsTest"> </class>
+           <class name="com.SalesForce.Tests.CreateOpportunitiesTest"> </class>
+             <class name="com.SalesForce.Tests.LeadsTest"> </class>
+              <class name="com.SalesForce.Tests.ContactsTest"> </class>
+               <class name="com.SalesForce.Tests.RandomTest"> </class> 
+                 
+      </classes>    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
